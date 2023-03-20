@@ -1,0 +1,212 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 365px;
+    width: 535px;
+    border-radius: 30px;
+}
+
+.result-section{
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    background-color: red;
+    border-radius: 25px;
+    z-index: 2;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.your-result{
+    position: static;
+}
+.your-result-h2{
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin: 20px;
+}
+.result{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    border-radius:80px;
+}
+.result-h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 65px;
+    margin-top: -5px;
+}
+.result-span{
+    color: hsl(241, 100%, 89%);
+    margin-top: -50px;
+    font-size: 12px;
+}
+.info-result{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.info-result-h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin-top: 0;
+}
+p{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.summary-section{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 100%;
+    width: 50%;
+    left: 265px;
+    background-color: aqua;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+.container-summary{
+    width: 190px;
+    margin-left: 50px;
+}
+.summary-h2{
+    font-family: 'Hanken Grotesk';
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    font-size: 16px;
+}
+.reaction{
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: hsl(0, 100%, 95%);
+}
+.reaction-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+img{
+    width: 17px;
+}
+.reaction-container{
+    display: flex;
+    justify-content: space-around;
+}
+.reaction-h3{
+    margin-left: 5px;
+    color: hsl(0, 100%, 67%);
+}
+.reaction-h4{
+    color: grey;
+    text-align: center;
+}
+.reaction-span{
+    color: hsl(224, 30%, 27%);
+    margin-right: 5px;
+}
+.memory{
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: hsl(39, 100%, 95%);
+}
+.memory-h3{
+    margin-left: 5px;
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: hsl(166, 100%, 95%);
+}
+.verbal-h3{
+    margin-left: 5px;
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: hsl(234, 85%, 95%);
+}
+.visual-h3{
+    margin-left: 5px;
+    color: hsl(234, 85%, 45%);
+}
+
+
+.btn-continue{
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    height: 35px;
+    margin-top: 17px;
+    border-radius: 20px;
+    color: hsl(0, 100%, 95%);
+    font-weight: 550;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
